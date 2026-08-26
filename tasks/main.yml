@@ -1,0 +1,6 @@
+- import_tasks: httpd.yml
+- name : installing docker
+  package:
+    name : docker
+    state : present
+
